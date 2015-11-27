@@ -17,6 +17,7 @@
 		1C65B0701C074C76008CEED7 /* Look.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C65B06F1C074C76008CEED7 /* Look.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C65B0771C074C76008CEED7 /* Look.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C65B06C1C074C76008CEED7 /* Look.framework */; };
 		1C65B07C1C074C76008CEED7 /* LookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65B07B1C074C76008CEED7 /* LookTests.swift */; };
+		1CA36BBB1C07813B00028DE7 /* CoreGraphicsLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA36BBA1C07813B00028DE7 /* CoreGraphicsLook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		1C65B0761C074C76008CEED7 /* LookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C65B07B1C074C76008CEED7 /* LookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookTests.swift; sourceTree = "<group>"; };
 		1C65B07D1C074C76008CEED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA36BBA1C07813B00028DE7 /* CoreGraphicsLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreGraphicsLook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		1C10B0371C074E410040298C /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				1CA36BBA1C07813B00028DE7 /* CoreGraphicsLook.swift */,
 				1C10B0411C075A8D0040298C /* Look.swift */,
 				1C10B03D1C0754380040298C /* UIFontLook.swift */,
 				1C10B03F1C0754430040298C /* CALayerLook.swift */,
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA36BBB1C07813B00028DE7 /* CoreGraphicsLook.swift in Sources */,
 				1C10B0421C075A8D0040298C /* Look.swift in Sources */,
 				1C10B0401C0754430040298C /* CALayerLook.swift in Sources */,
 				1C10B0471C0762390040298C /* UIViewLook.swift in Sources */,

@@ -28,6 +28,8 @@ public class Look : CustomDebugStringConvertible, CustomPlaygroundQuickLookable 
     
     struct LookDefault {
         var frame = CGRectMake(0, 0, 200, 100)
+        var fontName = "Helvetica"
+        var fontSize: CGFloat = 15
     }
 }
 
