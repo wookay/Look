@@ -3,6 +3,9 @@
 import UIKit
 
 let view = UIView()
+view.backgroundColor = UIColor.greenColor()
+view
+
 view.debugDescription
 
 dump(view)

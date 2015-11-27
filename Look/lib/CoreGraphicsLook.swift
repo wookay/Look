@@ -6,7 +6,7 @@
 //  Copyright © 2015 factorcat. All rights reserved.
 //
 
-import UIKit
+import CoreGraphics
 
 extension Look {
     public convenience init(CGColor cgColor: CGColor) {

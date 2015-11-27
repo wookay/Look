@@ -64,6 +64,7 @@
 		1C65B0A51C074CEC008CEED7 /* LookSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C65B0A91C074CEC008CEED7 /* LookSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookSampleTests.swift; sourceTree = "<group>"; };
 		1C65B0AB1C074CEC008CEED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C65DD9D1C080F3300E1D79C /* CoreTextLook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoreTextLook.playground; sourceTree = "<group>"; };
 		1CA36BBC1C07815C00028DE7 /* CoreGraphicsLook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoreGraphicsLook.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +98,7 @@
 		1C10B0351C074DFB0040298C /* playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				1C65DD9D1C080F3300E1D79C /* CoreTextLook.playground */,
 				1CA36BBC1C07815C00028DE7 /* CoreGraphicsLook.playground */,
 				1C4F1BFD1C07693300A230D2 /* UIBezierPathLook.playground */,
 				1C4F1BF91C0765C400A230D2 /* UIViewLook.playground */,

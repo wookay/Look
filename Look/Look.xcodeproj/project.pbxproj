@@ -17,6 +17,7 @@
 		1C65B0701C074C76008CEED7 /* Look.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C65B06F1C074C76008CEED7 /* Look.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C65B0771C074C76008CEED7 /* Look.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C65B06C1C074C76008CEED7 /* Look.framework */; };
 		1C65B07C1C074C76008CEED7 /* LookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65B07B1C074C76008CEED7 /* LookTests.swift */; };
+		1C6D06CD1C080C3700BE13A5 /* CoreTextLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D06CC1C080C3700BE13A5 /* CoreTextLook.swift */; };
 		1CA36BBB1C07813B00028DE7 /* CoreGraphicsLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA36BBA1C07813B00028DE7 /* CoreGraphicsLook.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		1C65B0761C074C76008CEED7 /* LookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C65B07B1C074C76008CEED7 /* LookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookTests.swift; sourceTree = "<group>"; };
 		1C65B07D1C074C76008CEED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6D06CC1C080C3700BE13A5 /* CoreTextLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreTextLook.swift; sourceTree = "<group>"; };
 		1CA36BBA1C07813B00028DE7 /* CoreGraphicsLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreGraphicsLook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 				1C10B0461C0762390040298C /* UIViewLook.swift */,
 				1C10B04A1C0764CF0040298C /* UIViewControllerLook.swift */,
 				1C4F1BFB1C0768FC00A230D2 /* UIBezierPathLook.swift */,
+				1C6D06CC1C080C3700BE13A5 /* CoreTextLook.swift */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				1CA36BBB1C07813B00028DE7 /* CoreGraphicsLook.swift in Sources */,
 				1C10B0421C075A8D0040298C /* Look.swift in Sources */,
 				1C10B0401C0754430040298C /* CALayerLook.swift in Sources */,
+				1C6D06CD1C080C3700BE13A5 /* CoreTextLook.swift in Sources */,
 				1C10B0471C0762390040298C /* UIViewLook.swift in Sources */,
 				1C10B04B1C0764CF0040298C /* UIViewControllerLook.swift in Sources */,
 				1C10B0441C075BF80040298C /* UIColorLook.swift in Sources */,

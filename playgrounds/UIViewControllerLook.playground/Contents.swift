@@ -3,6 +3,8 @@
 import UIKit
 
 let vc = UIViewController()
+vc.view.backgroundColor = UIColor.greenColor()
+vc
 dump(vc)
 
 
