@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C1620A31C1B03A0007EC3F0 /* Look.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C10B0301C074D3E0040298C /* Look.framework */; };
 		1C65B0951C074CEC008CEED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65B0941C074CEC008CEED7 /* AppDelegate.swift */; };
 		1C65B0971C074CEC008CEED7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65B0961C074CEC008CEED7 /* ViewController.swift */; };
 		1C65B09A1C074CEC008CEED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C65B0981C074CEC008CEED7 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		1C10B03B1C0753C60040298C /* UIFontLook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIFontLook.playground; sourceTree = "<group>"; };
 		1C10B03C1C0754100040298C /* CALayerLook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CALayerLook.playground; sourceTree = "<group>"; };
 		1C10B04C1C0764E30040298C /* UIViewControllerLook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIViewControllerLook.playground; sourceTree = "<group>"; };
+		1C4112EA1C1B338600C708F7 /* SpriteKitLook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SpriteKitLook.playground; sourceTree = "<group>"; };
 		1C4F1BF91C0765C400A230D2 /* UIViewLook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIViewLook.playground; sourceTree = "<group>"; };
 		1C4F1BFD1C07693300A230D2 /* UIBezierPathLook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIBezierPathLook.playground; sourceTree = "<group>"; };
 		1C65B0911C074CEC008CEED7 /* LookSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LookSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,8 @@
 		1C65B0AB1C074CEC008CEED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C65DD9D1C080F3300E1D79C /* CoreTextLook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoreTextLook.playground; sourceTree = "<group>"; };
 		1CA36BBC1C07815C00028DE7 /* CoreGraphicsLook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoreGraphicsLook.playground; sourceTree = "<group>"; };
+		1CDF72601C0832930034EE35 /* UIImageLook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIImageLook.playground; sourceTree = "<group>"; };
+		1CDF72621C0835230034EE35 /* FoundationLook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FoundationLook.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C1620A31C1B03A0007EC3F0 /* Look.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +103,9 @@
 		1C10B0351C074DFB0040298C /* playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				1C4112EA1C1B338600C708F7 /* SpriteKitLook.playground */,
+				1CDF72621C0835230034EE35 /* FoundationLook.playground */,
+				1CDF72601C0832930034EE35 /* UIImageLook.playground */,
 				1C65DD9D1C080F3300E1D79C /* CoreTextLook.playground */,
 				1CA36BBC1C07815C00028DE7 /* CoreGraphicsLook.playground */,
 				1C4F1BFD1C07693300A230D2 /* UIBezierPathLook.playground */,

@@ -6,8 +6,10 @@
 //  Copyright © 2015 factorcat. All rights reserved.
 //
 
+import UIKit
+
 extension Look {
-    public convenience init(font: UIFont?) {
+    public convenience init(UIFont font: UIFont?) {
         self.init()
         if let font = font {
             let attrs = [NSFontAttributeName: font]

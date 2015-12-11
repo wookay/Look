@@ -7,6 +7,7 @@
 //
 
 import CoreGraphics
+import UIKit
 
 extension Look {
     public convenience init(CGColor cgColor: CGColor) {
@@ -51,6 +52,11 @@ extension Look {
         self.preview = .BezierPath(path)
     }
     
+    public convenience init(CGImageRef imageRef: CGImageRef) {
+        self.init()
+        let image = UIImage(CGImage: imageRef)
+        self.preview = .Image(image)
+    }
 }
 
 

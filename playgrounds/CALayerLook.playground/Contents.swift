@@ -1,6 +1,7 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
+import Look
 
 let layer = CALayer()
 layer.backgroundColor = UIColor.greenColor().CGColor
@@ -9,9 +10,6 @@ layer
 
 layer.debugDescription
 
+Look(CALayer: layer)
 
-import Look
-Look(layer: layer)
-
-Look(layer: layer).debugDescription
 

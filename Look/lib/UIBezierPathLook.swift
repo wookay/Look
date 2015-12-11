@@ -6,8 +6,10 @@
 //  Copyright © 2015 factorcat. All rights reserved.
 //
 
+import UIKit
+
 extension Look {
-    public convenience init(path: UIBezierPath?) {
+    public convenience init(UIBezierPath path: UIBezierPath?) {
         self.init()
         if let path = path {
             self.object = path

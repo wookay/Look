@@ -6,7 +6,10 @@
 //  Copyright © 2015 factorcat. All rights reserved.
 //
 
+import UIKit
+
 public class Look : CustomDebugStringConvertible, CustomPlaygroundQuickLookable {
+    public var canvas: UIView? = nil
     var object: AnyObject? = nil
     var preview: PlaygroundQuickLook = .Text("nil")
     

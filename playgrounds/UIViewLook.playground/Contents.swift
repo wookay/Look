@@ -1,6 +1,7 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
+import Look
 
 let view = UIView()
 view.backgroundColor = UIColor.greenColor()
@@ -11,7 +12,8 @@ view.debugDescription
 dump(view)
 
 
-import Look
-Look(view: view)
+Look(UIView: view)
 
-Look(view: view).debugDescription
+let look = Look.empty()
+look.canvas?.backgroundColor = UIColor.purpleColor()
+look

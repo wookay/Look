@@ -15,12 +15,7 @@ Look(CGGlyph: glyphs[0], CTFont: ctFont)
 Look(CGGlyphs: glyphs, CTFont: ctFont)
 
 
-
 let color = UIColor.greenColor().CGColor
-color
-dump(color)
-
-
 
 Look(CGColor: color)
 
@@ -34,11 +29,8 @@ path.closePath()
 path
 
 let cgPath = path.CGPath
-cgPath
-dump(cgPath)
 
 
 Look(CGPath: cgPath)
-Look(CGPath: cgPath).debugDescription
 
 

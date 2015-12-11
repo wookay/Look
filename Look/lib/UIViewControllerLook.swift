@@ -6,8 +6,10 @@
 //  Copyright © 2015 factorcat. All rights reserved.
 //
 
+import UIKit
+
 extension Look {
-    public convenience init(vc: UIViewController?) {
+    public convenience init(UIViewController vc: UIViewController?) {
         self.init()
         if let vc = vc {
             self.object = vc
@@ -15,6 +17,7 @@ extension Look {
                 vc.view.frame = def.frame
             }
             self.preview = .View(vc.view)
+            self.canvas = vc.view
         }
     }
 }

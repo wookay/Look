@@ -1,14 +1,12 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
+import Look
 
 let font = UIFont(name: "Courier New", size: 15)
 font.debugDescription
 
 
-import Look
+Look(UIFont: font)
 
-Look(font: font)
-Look(font: font).debugDescription
-
-Look(font: UIFont(name: "Helvetica", size: 15))
+Look(UIFont: UIFont(name: "Helvetica", size: 15))

@@ -1,6 +1,7 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
+import Look
 
 let path = UIBezierPath()
 path.moveToPoint(CGPoint(x: 50, y: 90))
@@ -11,7 +12,4 @@ path
 
 path.debugDescription
 
-
-import Look
-Look(path: path)
-Look(path: path).debugDescription
+Look(UIBezierPath: path)

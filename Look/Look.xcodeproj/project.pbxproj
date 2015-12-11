@@ -13,12 +13,17 @@
 		1C10B0441C075BF80040298C /* UIColorLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10B0431C075BF80040298C /* UIColorLook.swift */; };
 		1C10B0471C0762390040298C /* UIViewLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10B0461C0762390040298C /* UIViewLook.swift */; };
 		1C10B04B1C0764CF0040298C /* UIViewControllerLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10B04A1C0764CF0040298C /* UIViewControllerLook.swift */; };
+		1C4112E91C1B334000C708F7 /* SpriteKitLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4112E81C1B334000C708F7 /* SpriteKitLook.swift */; };
+		1C4AA2201C083E5700099187 /* UIImageLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AA21F1C083E5700099187 /* UIImageLook.swift */; };
 		1C4F1BFC1C0768FC00A230D2 /* UIBezierPathLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F1BFB1C0768FC00A230D2 /* UIBezierPathLook.swift */; };
+		1C553C7D1C1AFDBF0097A497 /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C553C7C1C1AFDBF0097A497 /* C4.framework */; };
 		1C65B0701C074C76008CEED7 /* Look.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C65B06F1C074C76008CEED7 /* Look.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C65B0771C074C76008CEED7 /* Look.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C65B06C1C074C76008CEED7 /* Look.framework */; };
 		1C65B07C1C074C76008CEED7 /* LookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65B07B1C074C76008CEED7 /* LookTests.swift */; };
 		1C6D06CD1C080C3700BE13A5 /* CoreTextLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D06CC1C080C3700BE13A5 /* CoreTextLook.swift */; };
 		1CA36BBB1C07813B00028DE7 /* CoreGraphicsLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA36BBA1C07813B00028DE7 /* CoreGraphicsLook.swift */; };
+		1CC0A8751C1AF8CA007FB852 /* C4Look.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC0A8741C1AF8CA007FB852 /* C4Look.swift */; };
+		1CDF72641C0835BF0034EE35 /* FoundationLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF72631C0835BF0034EE35 /* FoundationLook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,10 @@
 		1C10B0431C075BF80040298C /* UIColorLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorLook.swift; sourceTree = "<group>"; };
 		1C10B0461C0762390040298C /* UIViewLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewLook.swift; sourceTree = "<group>"; };
 		1C10B04A1C0764CF0040298C /* UIViewControllerLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerLook.swift; sourceTree = "<group>"; };
+		1C4112E81C1B334000C708F7 /* SpriteKitLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteKitLook.swift; sourceTree = "<group>"; };
+		1C4AA21F1C083E5700099187 /* UIImageLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageLook.swift; sourceTree = "<group>"; };
 		1C4F1BFB1C0768FC00A230D2 /* UIBezierPathLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPathLook.swift; sourceTree = "<group>"; };
+		1C553C7C1C1AFDBF0097A497 /* C4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = C4.framework; path = "/Users/wookyoung/work/Look/samples/LookC4Sample/Pods/../build/Debug-iphoneos/C4.framework"; sourceTree = "<absolute>"; };
 		1C65B06C1C074C76008CEED7 /* Look.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Look.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C65B06F1C074C76008CEED7 /* Look.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Look.h; sourceTree = "<group>"; };
 		1C65B0711C074C76008CEED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +54,12 @@
 		1C65B07B1C074C76008CEED7 /* LookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookTests.swift; sourceTree = "<group>"; };
 		1C65B07D1C074C76008CEED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C6D06CC1C080C3700BE13A5 /* CoreTextLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreTextLook.swift; sourceTree = "<group>"; };
+		1C72B4CC1C1AFA8A00EC6BA4 /* C4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = C4.framework; path = "Pods/../build/Debug-iphoneos/C4.framework"; sourceTree = "<group>"; };
 		1CA36BBA1C07813B00028DE7 /* CoreGraphicsLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreGraphicsLook.swift; sourceTree = "<group>"; };
+		1CC0A8741C1AF8CA007FB852 /* C4Look.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4Look.swift; sourceTree = "<group>"; };
+		1CC0A8B21C1AF9CC007FB852 /* C4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = C4.framework; path = "/Users/wookyoung/work/Look/samples/LookC4Sample/Pods/../build/Debug-iphoneos/C4.framework"; sourceTree = "<absolute>"; };
+		1CC0A8BF1C1AFA55007FB852 /* C4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = C4.framework; path = "Pods/../build/Debug-iphoneos/C4.framework"; sourceTree = "<group>"; };
+		1CDF72631C0835BF0034EE35 /* FoundationLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationLook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C553C7D1C1AFDBF0097A497 /* C4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				1CA36BBA1C07813B00028DE7 /* CoreGraphicsLook.swift */,
+				1C4112E81C1B334000C708F7 /* SpriteKitLook.swift */,
 				1C10B0411C075A8D0040298C /* Look.swift */,
 				1C10B03D1C0754380040298C /* UIFontLook.swift */,
 				1C10B03F1C0754430040298C /* CALayerLook.swift */,
@@ -80,6 +95,8 @@
 				1C10B04A1C0764CF0040298C /* UIViewControllerLook.swift */,
 				1C4F1BFB1C0768FC00A230D2 /* UIBezierPathLook.swift */,
 				1C6D06CC1C080C3700BE13A5 /* CoreTextLook.swift */,
+				1CDF72631C0835BF0034EE35 /* FoundationLook.swift */,
+				1C4AA21F1C083E5700099187 /* UIImageLook.swift */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -87,9 +104,11 @@
 		1C65B0621C074C76008CEED7 = {
 			isa = PBXGroup;
 			children = (
+				1CC0A8731C1AF8CA007FB852 /* lib-c4 */,
 				1C10B0371C074E410040298C /* lib */,
 				1C65B06E1C074C76008CEED7 /* Look */,
 				1C65B07A1C074C76008CEED7 /* LookTests */,
+				1CC0A8BE1C1AFA35007FB852 /* Frameworks */,
 				1C65B06D1C074C76008CEED7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,6 +138,25 @@
 				1C65B07D1C074C76008CEED7 /* Info.plist */,
 			);
 			path = LookTests;
+			sourceTree = "<group>";
+		};
+		1CC0A8731C1AF8CA007FB852 /* lib-c4 */ = {
+			isa = PBXGroup;
+			children = (
+				1CC0A8741C1AF8CA007FB852 /* C4Look.swift */,
+			);
+			path = "lib-c4";
+			sourceTree = "<group>";
+		};
+		1CC0A8BE1C1AFA35007FB852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C553C7C1C1AFDBF0097A497 /* C4.framework */,
+				1C72B4CC1C1AFA8A00EC6BA4 /* C4.framework */,
+				1CC0A8BF1C1AFA55007FB852 /* C4.framework */,
+				1CC0A8B21C1AF9CC007FB852 /* C4.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,11 +216,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = factorcat;
 				TargetAttributes = {
 					1C65B06B1C074C76008CEED7 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = U2KBENECEZ;
 					};
 					1C65B0751C074C76008CEED7 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -232,12 +271,16 @@
 				1CA36BBB1C07813B00028DE7 /* CoreGraphicsLook.swift in Sources */,
 				1C10B0421C075A8D0040298C /* Look.swift in Sources */,
 				1C10B0401C0754430040298C /* CALayerLook.swift in Sources */,
+				1CC0A8751C1AF8CA007FB852 /* C4Look.swift in Sources */,
 				1C6D06CD1C080C3700BE13A5 /* CoreTextLook.swift in Sources */,
 				1C10B0471C0762390040298C /* UIViewLook.swift in Sources */,
 				1C10B04B1C0764CF0040298C /* UIViewControllerLook.swift in Sources */,
+				1C4112E91C1B334000C708F7 /* SpriteKitLook.swift in Sources */,
 				1C10B0441C075BF80040298C /* UIColorLook.swift in Sources */,
+				1C4AA2201C083E5700099187 /* UIImageLook.swift in Sources */,
 				1C10B03E1C0754380040298C /* UIFontLook.swift in Sources */,
 				1C4F1BFC1C0768FC00A230D2 /* UIBezierPathLook.swift in Sources */,
+				1CDF72641C0835BF0034EE35 /* FoundationLook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -371,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

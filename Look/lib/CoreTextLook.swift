@@ -7,6 +7,7 @@
 //
 
 import CoreText
+import UIKit
 
 extension Look {
     public convenience init(CTFont ctFont: CTFont) {
