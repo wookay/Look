@@ -7,4 +7,6 @@ Look
 
 ```sh
 $ open samples/LookSample/LookSample.xcworkspace 
+
+$ open samples/LookC4Sample/LookC4Sample.xcworkspace
 ```
