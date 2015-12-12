@@ -47,6 +47,7 @@ arc.fillColor = clear
 Look(c4: arc)
 
 let wedge = C4Wedge(center: C4Point(100,50), radius: 30, start: 0.25 * M_PI, end: -0.25 * M_PI)
+
 wedge.lineWidth = 7
 wedge.strokeColor = green
 wedge.fillColor = clear
