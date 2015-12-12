@@ -1,16 +1,7 @@
 run:
-	xcodebuild -workspace Look/Look.xcworkspace -scheme Pods build | xcpretty -c
-	xcodebuild -workspace Look/Look.xcworkspace -scheme C4 build | xcpretty -c
-	xcodebuild -workspace Look/Look.xcworkspace -scheme Look build | xcpretty -c
+	xctool --version
+	xctool -workspace Look/Look.xcworkspace -scheme Look build
 	@echo
-	xcodebuild -workspace samples/LookSample/LookSample.xcworkspace -scheme Pods build | xcpretty -c
-	xcodebuild -workspace samples/LookSample/LookSample.xcworkspace -scheme C4 build | xcpretty -c
-	xcodebuild -workspace samples/LookSample/LookSample.xcworkspace -scheme Look build | xcpretty -c
-	xcodebuild -workspace samples/LookSample/LookSample.xcworkspace -scheme LookSample build | xcpretty -c
-	xcodebuild -workspace samples/LookSample/LookSample.xcworkspace -scheme LookSampleTests | xcpretty -c
+	xctool -workspace samples/LookSample/LookSample.xcworkspace -scheme LookSampleTests -destination name="iPhone 5s" -sdk iphonesimulator test
 	@echo
-	xcodebuild -workspace samples/LookC4Sample/LookC4Sample.xcworkspace -scheme Pods build | xcpretty -c
-	xcodebuild -workspace samples/LookC4Sample/LookC4Sample.xcworkspace -scheme C4 build | xcpretty -c
-	xcodebuild -workspace samples/LookC4Sample/LookC4Sample.xcworkspace -scheme Look build | xcpretty -c
-	xcodebuild -workspace samples/LookC4Sample/LookC4Sample.xcworkspace -scheme LookC4Sample build | xcpretty -c
-	xcodebuild -workspace samples/LookC4Sample/LookC4Sample.xcworkspace -scheme LookC4SampleTests | xcpretty -c
+	xctool -workspace samples/LookC4Sample/LookC4Sample.xcworkspace -scheme LookC4SampleTests -destination name="iPhone 5s" -sdk iphonesimulator test
