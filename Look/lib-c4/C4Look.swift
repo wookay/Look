@@ -17,7 +17,7 @@ extension Look {
             let frame = CGRect(origin: CGPointZero, size: CGSize(cview.originalSize))
             let view: UIView = UIView(frame: frame)
             view.backgroundColor = UIColor.clearColor()
-            view.add(cview)
+            view.addSubview(cview.view)
             self.preview = .View(view)
             self.canvas = view
         }
@@ -29,7 +29,7 @@ extension Look {
             self.object = cview
             let view: UIView = UIView(frame: def.frame)
             view.backgroundColor = UIColor.clearColor()
-            view.add(cview)
+            view.addSubview(cview.view)
             self.preview = .View(view)
             self.canvas = view
         }
