@@ -1,6 +1,6 @@
 run:
 	xctool --version
-	xctool -workspace Look/Look.xcworkspace -scheme Look build
+	xctool -workspace Look/Look.xcworkspace -scheme Look -destination name="iPhone 5s" -sdk iphonesimulator build
 	@echo
 	xctool -workspace samples/LookSample/LookSample.xcworkspace -scheme LookSampleTests -destination name="iPhone 5s" -sdk iphonesimulator test
 	@echo
